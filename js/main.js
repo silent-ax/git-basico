@@ -1,9 +1,11 @@
-"use strict";
+(() => {
+  "use strict";
 
-console.log("main.js");
+  console.log("main.js");
 
-const sum = (a, b) => a + b;
+  const sum = (a, b) => a + b;
 
-const result = sum(1, 2);
+  const result = sum(1, 2);
 
-console.log(result);
+  console.log(result);
+})();
