@@ -8,4 +8,8 @@
   const result = sum(1, 2);
 
   console.log(result);
+
+  function substract(a, b) {
+    return a - b;
+  }
 })();
